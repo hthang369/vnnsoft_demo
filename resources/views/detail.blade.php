@@ -86,36 +86,15 @@
             </nav>
         </header>
 
-        <section class="container-fluid">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img src="{{ asset('images/Silestone-Kitchen-Bianco-Calacatta.jpg') }}" height="400" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                    <img src="{{ asset('images/346611173095321vi0.jpg') }}" class="d-block w-100" height="400" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                    <img src="{{ asset('images/1000x438 SVS NEW.jpg') }}" class="d-block w-100" height="400" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{ asset('images/homepage2.jpg') }}" class="d-block w-100" height="400" alt="...">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+        <section class="container-xl">
+            <div class="d-flex justify-content-center">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                        <li class="breadcrumb-item"><a href="#">Đèn duhai</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Đèn led</li>
+                    </ol>
+                </nav>
             </div>
         </section>
 
